@@ -26,4 +26,8 @@
 
 1.小程序目前只能跳转到来源app暂不支持跳转到任意app；
 2.地图全景和导航可以直接使用小程序的api
-wx.openLocation(OBJECT)来实现
+wx.openLocation(OBJECT)来实现 可以实现查看路线、全景图打开本机安装的地图相关app选项
+3.图片放大预览功能
+wx.previewImage(OBJECT)
+预览图片。
+
